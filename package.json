@@ -1,0 +1,13 @@
+{
+  "name": "dusti_test",
+  "version": "0.0.1",
+  "license": "GPL-2.0",
+  "description": "Wherein we demonstrate node dependencies with absolute paths.",
+  "devDependencies": {
+    "bower": "1.8.4",
+    "gulp": "git+ssh://git@github.com:gulpjs/gulp.git",
+    "dusti_test_package": "git+ssh://git@github.com:AdamVanScyoc/dusti_test_package.git"
+  },
+  "author": "Adam Van Scyoc",
+  "dependencies": {}
+}
